@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import '../styles/custom.css'
 
 const Header = () => (
   <header
@@ -24,6 +25,7 @@ const Header = () => (
             color: `green`,
             fontWeight: 'bold',
             fontSize: '1.4rem',
+            fontFamily: 'Poppins',
             textDecoration: `none`,
             float: 'left'
           }}
@@ -34,6 +36,7 @@ const Header = () => (
          to="/marketplace/"
          style={{
            color: `green`,
+           fontFamily: 'Poppins',
            textDecoration: `none`,
            float: 'right'
          }}
